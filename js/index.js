@@ -1,4 +1,5 @@
 var app = angular.module('myApp', ['ngMaterial']);
+
 app.controller('myCtrl',function($scope, $http) {
 	$scope.name = "Akhil";
 	$scope.is_loading = true;
@@ -8,4 +9,10 @@ app.controller('myCtrl',function($scope, $http) {
 		console.log($scope.fetched_repos);
 		$scope.is_loading = false;
 	});
+});
+
+app.config(function($mdThemingProvider) {
+	$mdThemingProvider.theme('default')
+	.primaryPalette('deep-purple')
+	.accentPalette('cyan');
 });
