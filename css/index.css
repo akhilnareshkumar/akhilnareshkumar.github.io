@@ -1,0 +1,28 @@
+.ak-toolbar {
+	min-height: 350px;
+}
+
+.ak-toolbar h1 {
+	text-align: center;
+	font-size: 56px;
+	font-weight: 100;
+	line-height: 56px;
+	margin-bottom: 0px;
+}
+
+.ak-toolbar h4 {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 56px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.ak-toolbar-btn {
+	margin: 40px;
+}
+
+.ak-card a{
+	text-decoration: none;
+}
